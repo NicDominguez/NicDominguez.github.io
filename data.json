@@ -1,0 +1,117 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Web Style Guide",
+            "description": "The Web Style Guide is a representation of what a front-end development team would use to establish the base styles of a website. It uses Sass to create a flexible code base that can change easily with any desired changes in styles. Variable, placeholders, and mixins give the multi-tiered file structure of the sass the ability to push any small changes from the variables partial up through to the final CSS stylesheet.",
+            "technologies": [
+                "CSS",
+                "Sass",
+                "HTML"
+            ],
+            "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project4/",
+            "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project4",
+            "image_urls": [
+                "/static/images/web_style_guide_550x550.jpg",
+                "/static/images/web_style_guide_1200x550_1.jpg",
+                "/static/images/web_style_guide_1200x550_2.jpg",
+                "/static/images/web_style_guide_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Photo Gallery",
+            "description": "This project was my first introduction to jquery plugins. The photo gallery lightbox combination is a common instance on websites to display any type of photo content. The gallery is responsive and there is also an additional functioning search box. Captions are also included which are the basis for the search function.",
+            "technologies": [
+                "CSS",
+                "JQuery",
+                "Responsive Design"
+            ],
+            "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project5/",
+            "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project5",
+            "image_urls": [
+                "/static/images/photo_gallery_550x550.jpg",
+                "/static/images/photo_gallery_1200x550_1.jpg",
+                "/static/images/photo_gallery_1200x550_2.jpg",
+                "/static/images/photo_gallery_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 2,
+            "project_name": "WebApp Dashboard",
+            "description": "This project combined much of what I had learned so far at the time. The HTML required accurate and well organized semantic markup and the CSS uses a grid display with flex-box containers within the grid sections. The Javascript creates the functionality for the interactive notification icon and form elements. This was also my first use of the chart.js library to represent the fictional traffic data. Dashboards like these are useful across industries for better management of resources and understanding user tendencies.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project7/",
+            "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project7",
+            "image_urls": [
+                "/static/images/webapp_dashboard_550x550.jpg",
+                "/static/images/webapp_dashboard_1200x550_1.jpg",
+                "/static/images/webapp_dashboard_1200x550_2.jpg",
+                "/static/images/webapp_dashboard_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "This project uses JQuery to create a fully interactive conference registration form. The simplified syntax uses regular expressions for validation and provides conditional behavior depending on the interactions by the user Form interactivity is a fundamental skill for front-end web development and can be implemented in a variety of online situations.",
+            "technologies": [
+                "JQuery",
+                "Regular expressions",
+                "JavaScript"
+            ],
+            "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project3/",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project3",
+            "image_urls": [
+                "/static/images/interactive_form_550x550.jpg",
+                "/static/images/interactive_form_1200x550_1.jpg",
+                "/static/images/interactive_form_1200x550_2.jpg",
+                "/static/images/interactive_form_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 4,
+            "project_name": "OOP Game Show App",
+            "description": "Games are an ideal way to demonstrate the usefulness of Object-Oriented Programming. The Phrase Hunter game here uses vanilla JavaScript to construct classes to manage various aspects of the game. The modular nature of the classes allow for easy customization as you can see by the games familiar theme. All interactivity and conditional behavior is included to make sure the user can follow the logic of the game without error.",
+            "technologies": [
+                "Object-Oriented Programming",
+                "JavaScript",
+                "Event Handlers"
+            ],
+            "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project4/",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project4",
+            "image_urls": [
+                "/static/images/oop_game_show_app_550x550.jpg",
+                "/static/images/oop_game_show_app_1200x550_1.jpg",
+                "/static/images/oop_game_show_app_1200x550_2.jpg",
+                "/static/images/oop_game_show_app_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 5,
+            "project_name": "Employee Directory",
+            "description": "This employee directory uses a third-party API to retrieve employee data. The JQuery requests the JSON object form the API and parses the data to list a selection of 12 random employees from the API. I also created a modal window view to see more detailed information about each employee. Additional features include the ability to cycle through the employees in the modal window and to filter the search results by employee name. This is a highly functional and easily deployable project that any small start up could benefit from.",
+            "technologies": [
+                "API Requests",
+                "JQuery",
+                "CSS"
+            ],
+            "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project5/",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project5",
+            "image_urls": [
+                "/static/images/employee_directory_550x550.jpg",
+                "/static/images/employee_directory_1200x550_1.jpg",
+                "/static/images/employee_directory_1200x550_2.jpg",
+                "/static/images/employee_directory_1200x550_3.jpg"
+            ]
+        }
+    ]
+}
