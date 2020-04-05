@@ -11,6 +11,8 @@ app.set('view engine', 'pug');
  // Import and use routes from routes files
  const mainRoutes = require('./routes/main');
  const projectRoutes = require('./routes/projects')
+
+ const port = process.env.PORT || 5000;
  
  app.use(mainRoutes);
  app.use('/project', projectRoutes)
@@ -30,6 +32,6 @@ app.use((err, req, res, next) => {
  });
 
  // Sets port to 3000
- app.listen(3000, () => {
-    console.log('The application is running on localhost:3000');
+ app.listen(5000, () => {
+    console.log('The application is running on localhost:5000');
 });
