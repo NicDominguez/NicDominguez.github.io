@@ -18,7 +18,6 @@ app.set('view engine', 'pug');
  // Create error object from error constructor
  app.use((req, res, next) => {
     const err = new Error("I'm sorry, this page does not exist");
-    console.log("The page you are looking for cannot be found.");
     err.status = 404;
     next(err);
  });
