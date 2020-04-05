@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/NicDominguez/FSJS_Techdegree_project6.git"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
