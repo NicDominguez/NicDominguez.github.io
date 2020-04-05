@@ -19,6 +19,7 @@
   "homepage": "https://github.com/NicDominguez/FSJS_Techdegree_project6#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "ruby": "^0.6.1"
   }
 }
