@@ -112,6 +112,24 @@
                 "/static/images/employee_directory_1200x550_2.jpg",
                 "/static/images/employee_directory_1200x550_3.jpg"
             ]
+        },
+
+        {
+            "id": 6,
+            "project_name": "React Gallery App",
+            "description": "This gallery employees the front-end library React to build a client side interface for search and previewing photos from the Flickr API.",
+            "technologies": [
+                "API Requests",
+                "React"
+            ],
+            "live_link": "https://nicdominguezfsjsproject7.netlify.com",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project7",
+            "image_urls": [
+                "/static/images/react_gallery_app_550x550.jpg",
+                "/static/images/react_gallery_app_1200x550_1.jpg",
+                "/static/images/react_gallery_app_1200x550_2.jpg",
+                "/static/images/react_gallery_app_1200x550_3.jpg"
+            ]
         }
     ]
 }
