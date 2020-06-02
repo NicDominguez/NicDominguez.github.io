@@ -100,7 +100,7 @@
             "project_name": "Employee Directory",
             "description": "This employee directory uses a third-party API to retrieve employee data. The JQuery requests the JSON object form the API and parses the data to list a selection of 12 random employees from the API. I also created a modal window view to see more detailed information about each employee. Additional features include the ability to cycle through the employees in the modal window and to filter the search results by employee name. This is a highly functional and easily deployable project that any small start up could benefit from.",
             "technologies": [
-                "API Requests",
+                "API Consumption",
                 "JQuery",
                 "CSS"
             ],
@@ -119,7 +119,7 @@
             "project_name": "React Gallery App",
             "description": "This gallery employees the front-end library React to build a client side interface for search and previewing photos from the Flickr API.",
             "technologies": [
-                "API Requests",
+                "API Consumption",
                 "React"
             ],
             "live_link": "https://nicdominguezfsjsproject7.netlify.com",
@@ -130,6 +130,45 @@
                 "/static/images/react_gallery_app_1200x550_2.jpg",
                 "/static/images/react_gallery_app_1200x550_3.jpg"
             ]
+        },
+
+        {
+            "id": 7,
+            "project_name": "SQL Library Manager",
+            "description": "This application uses sqlite3 and the ORM Sequelize to create a library management tool to catalogue books.",
+            "technologies": [
+                "REST API",
+                "SQL",
+                "Sequelize"
+            ],
+            "live_link": "Live Site Under Construction",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project8",
+            "image_urls": [
+                "/static/images/sql_library_manager_550x550.jpg",
+                "/static/images/sql_library_manager_1200x550_1.jpg",
+                "/static/images/sql_library_manager_1200x550_2.jpg",
+                "/static/images/sql_library_manager_1200x550_3.jpg"
+            ]
+        },
+
+        {
+            "id": 8,
+            "project_name": "Full Stack Course Maqnagement App with React and REST API",
+            "description": "This is a course management application complete with REST API integration, user authentication, input validation and React front-end.",
+            "technologies": [
+                "REST API",
+                "SQL",
+                "React"
+            ],
+            "live_link": "Live Site Under Construction",
+            "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project10",
+            "image_urls": [
+                "/static/images/full_stack_app_550x550.jpg",
+                "/static/images/full_stack_app_1200x550_1.jpg",
+                "/static/images/full_stack_app_1200x550_2.jpg",
+                "/static/images/full_stack_app_1200x550_3.jpg"
+            ]
         }
+
     ]
 }
