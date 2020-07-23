@@ -20,7 +20,25 @@ block content
 
         a.button.expanded(href= projects[req.params.id].live_link target='_blank') Live Demo
         a.button.expanded(href= projects[req.params.id].github_link target='_blank') GitHub Repo
-     
-    img.image(src= projects[req.params.id].image_urls[1])
-    img.image(src= projects[req.params.id].image_urls[2])
-    img.image(src= projects[req.params.id].image_urls[3])
+
+    .slideshow-container
+      a.prev(onclick="plusSlides(-1)") &lt;
+      .mySlides.fade
+        .numbertext 1/ 3 
+        img.project-image(src= projects[req.params.id].image_urls[1])
+        .text Caption One
+      .mySlides.fade
+        .numbertext 2/ 3 
+        img.project-image(src= projects[req.params.id].image_urls[2])
+        .text Caption Two
+      .mySlides.fade
+        .numbertext 3/ 3 
+        img.project-image(src= projects[req.params.id].image_urls[3])
+        .text Caption Three
+      a.next(onclick="plusSlides(1)") &gt;
+    br
+    div(style="text-align:center")
+      span.dot(onclick="currentSlide(1)")
+      span.dot(onclick="currentSlide(2)")
+      span.dot(onclick="currentSlide(3)")
+
