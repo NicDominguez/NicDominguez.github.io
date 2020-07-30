@@ -15,7 +15,7 @@ html(class="no-js" lang="en" dir="ltr")
           br
           .cell.shrink
             img.thumbnail(src='/static/images/profile_pic.jpg')
-          .cell.auto
+          .cell.auto.sidebar-text
 
             h5 Nicholas Dominguez
 
@@ -23,6 +23,17 @@ html(class="no-js" lang="en" dir="ltr")
               | What can I say, I am your friendly neighborhood web developer. I love to make apps that help others do their work easier and maybe one day I will become a Jedi like my father before me. 
 
             a(href='../about') Learn More →
+
+            ul.social-links.round
+              li
+                a.icon(href="https://twitter.com/NicDominguez")
+                  img(src="/static/images/svg/twitter_icon.svg")
+              li
+                a.icon(href="https://github.com/NicDominguez")
+                  img(src="/static/images/svg/github_icon.svg")
+              li
+                a.icon(href="https://www.linkedin.com/in/nicdominguez/")
+                  img(src="/static/images/svg/linkedin_icon.svg")
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

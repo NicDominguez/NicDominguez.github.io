@@ -12,33 +12,42 @@ block content
           | #{projects[req.params.id].description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Technologies
+        a.button.expanded.round(href= projects[req.params.id].live_link target='_blank') Live Demo
+        a.button.expanded.round(href= projects[req.params.id].github_link target='_blank') GitHub Repository
 
+        br
+        h6 Technologies
         ul
         each technology in projects[req.params.id].technologies
           li= technology
 
-        a.button.expanded(href= projects[req.params.id].live_link target='_blank') Live Demo
-        a.button.expanded(href= projects[req.params.id].github_link target='_blank') GitHub Repo
+    .grid-x
+      .slideshow-container
+        a.prev(onclick="plusSlides(-1)") &lt;
+        .mySlides.fade
+          .numbertext 1/ 3 
+          img.project-image(src= projects[req.params.id].image_urls[1])
+          .text= projects[req.params.id].captions[0]
+        .mySlides.fade
+          .numbertext 2/ 3 
+          img.project-image(src= projects[req.params.id].image_urls[2])
+          .text= projects[req.params.id].captions[1]
+        .mySlides.fade
+          .numbertext 3/ 3 
+          img.project-image(src= projects[req.params.id].image_urls[3])
+          .text= projects[req.params.id].captions[2]
+        a.next(onclick="plusSlides(1)") &gt;
+      
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Achievements
+        ul.achievements-list
+          each achievement in projects[req.params.id].achievements
+            li= achievement
 
-    .slideshow-container
-      a.prev(onclick="plusSlides(-1)") &lt;
-      .mySlides.fade
-        .numbertext 1/ 3 
-        img.project-image(src= projects[req.params.id].image_urls[1])
-        .text Caption One
-      .mySlides.fade
-        .numbertext 2/ 3 
-        img.project-image(src= projects[req.params.id].image_urls[2])
-        .text Caption Two
-      .mySlides.fade
-        .numbertext 3/ 3 
-        img.project-image(src= projects[req.params.id].image_urls[3])
-        .text Caption Three
-      a.next(onclick="plusSlides(1)") &gt;
-    br
-    div(style="text-align:center")
-      span.dot(onclick="currentSlide(1)")
-      span.dot(onclick="currentSlide(2)")
-      span.dot(onclick="currentSlide(3)")
+      br
+      div.dot-container(style="text-align:center")
+        span.dot(onclick="currentSlide(1)")
+        span.dot(onclick="currentSlide(2)")
+        span.dot(onclick="currentSlide(3)")
+
 
