@@ -8,10 +8,14 @@ block content
 
       p.lead.text-light
         | Welcome to my portfolio. Projects presented here use numerous front-end and sever-side technologies. You can find full descriptions of each project on the individual project pages and view the repository to get a better look at the underlying code.
-  article.grid-container.portfolio-index
-    
-    .grid-x.grid-margin-x.small-up-2.medium-up-3.large-up-4
+  .tech-btn-wrapper
 
+      each tech in techs
+        a.tech-btn.button.round= tech
+
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-3.large-up-4
+          
       each project in projects
         .cell.poster
           a.poster-img(href=`/project/${project.id}`)

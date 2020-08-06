@@ -99,12 +99,12 @@ a:hover{
 
 .portfolio-intro{
   margin: 0;
-  padding: 30px 50px 20px;
+  padding: 30px 50px 0px;
 }
 
 .portfolio-intro p{
   border-bottom: 3px solid #eaeaea;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
     font-size: 110%;
 }
 
@@ -384,4 +384,19 @@ ul.social-links li {
 
 ul.social-links li a img{
   height: 100%;
+}
+
+/* TECH PROJECT FILTERING */
+
+.tech-btn-wrapper {
+  margin: 0 auto 10px auto;
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tech-btn {
+  margin: 5px 5px;
+  font-size: .8rem;
 }
