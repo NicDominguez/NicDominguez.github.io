@@ -23,9 +23,9 @@
                 "/static/images/web_style_guide_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Typography and Form Element Styles",
+                "Image Styles",
+                "Button Styles and Grid System"
             ]
         },
 
@@ -52,9 +52,9 @@
                 "/static/images/photo_gallery_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Full Gallery View",
+                "Single Photo Modal Window",
+                "Modal Window Photo Capition"
             ]
         },
 
@@ -81,9 +81,9 @@
                 "/static/images/webapp_dashboard_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Dashboard Nav Side Bar and User Title Bar",
+                "Bar Chart, Pie Chart and SOcial Media Statistics",
+                "User Message Widget and Settings Form"
             ]
         },
 
@@ -110,9 +110,9 @@
                 "/static/images/interactive_form_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Basic Info Form Elements",
+                "Dynamic Check Boxes with Conditional Logic",
+                "Payment Capture Form"
             ]
         },
 
@@ -139,9 +139,9 @@
                 "/static/images/oop_game_show_app_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Initial Blank Phrase and Keyboard",
+                "End Game Screen with Reset Button",
+                "Keyboard with Game Turn Logic"
             ]
         },
 
@@ -168,9 +168,9 @@
                 "/static/images/employee_directory_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Full Employee Gallery",
+                "Employee Info Modal Window",
+                "Dynamic Search Filter"
             ]
         },
 
@@ -196,9 +196,9 @@
                 "/static/images/react_gallery_app_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Nave Buttons and Search Field",
+                "API Based Gallery Birds",
+                "API Based Gallery Airplanes"
             ]
         },
 
@@ -225,9 +225,9 @@
                 "/static/images/sql_library_manager_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Filtered Book List with Pagination",
+                "Full Book Catalogue",
+                "Add Book Form"
             ]
         },
 
@@ -237,7 +237,7 @@
             "description": "This is a course management application complete with REST API integration, user authentication, input validation and React front-end.",
             "technologies": [
                 "REST API",
-                "SQL",
+                "Sequelize",
                 "React"
             ],
             "achievements": [
@@ -254,9 +254,9 @@
                 "/static/images/full_stack_app_1200x550_3.jpg"
             ],
             "captions": [
-                "testCaption1",
-                "testCaption2",
-                "testCaption3"
+                "Course List View",
+                "Course Detail View",
+                "Update Course Form"
             ]
         }
 
