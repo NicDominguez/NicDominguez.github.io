@@ -10,9 +10,9 @@
                 "HTML"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Created SCSS partials for all UI elements",
+                "Wrote custom mixins for Flexbox and Media Query logic",
+                "Built complete variable library for easy style changes"
             ],
             "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project4/",
             "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project4",
@@ -39,9 +39,9 @@
                 "Responsive Design"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Wrote Custom JQuery search function based on photo captions",
+                "Built responsive flexbox layout",
+                "Incorporated light-gallery plugin for modal window view"
             ],
             "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project5/",
             "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project5",
@@ -68,9 +68,9 @@
                 "JavaScript"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Built responsive CSS grid layout",
+                "Incorporated use of local storage to save user settings",
+                "Used Chart.js library for animated graphs"
             ],
             "live_link": "http://www.nicdominguez.com/FEWD_Techdegree_project7/",
             "github_link": "https://github.com/NicDominguez/FEWD_Techdegree_project7",
@@ -97,9 +97,9 @@
                 "JavaScript"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Wrote multiple event handlers to create responsive input fields",
+                "Implemented regular expression validations for payment information",
+                "Built dynamic form structure depending on JavaScript browser settings"
             ],
             "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project3/",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project3",
@@ -126,9 +126,9 @@
                 "Event Handlers"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Customized design of UI to match desired theme",
+                "Created custom logic to sync the game and keyboard display",
+                "Wrote multple methods to add user interactivity"
             ],
             "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project4/",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project4",
@@ -155,9 +155,9 @@
                 "CSS"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Built Employee class to define rendering and values associated with each employee",
+                "Created modal window to display employee details",
+                "Wrote search funciton to had filtering to the gallery view"
             ],
             "live_link": "http://www.nicdominguez.com/FSJS_Techdegree_project5/",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project5",
@@ -183,9 +183,9 @@
                 "React"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "User React Router to manage application pages",
+                "Implemented search function to retrieve images from Flicker API",
+                "Managed application state through class components"
             ],
             "live_link": "https://nicdominguezfsjsproject7.netlify.com",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project7",
@@ -212,9 +212,9 @@
                 "Sequelize"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Created asynchronus handler function to customize error handling",
+                "Built pagination feature for filtered book list",
+                "Used Sequelize ORM to provide request body validation and database CRUD operations"
             ],
             "live_link": "Live Site Under Construction",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project8",
@@ -241,9 +241,9 @@
                 "React"
             ],
             "achievements": [
-                "testAchievement1",
-                "testAcheivement2",
-                "testAchievement3"
+                "Built REST API backend to manage course and user data",
+                "Created user authentication feature with encrypted password storage",
+                "Used React Context to provide CRDU operation functions to various componenets"
             ],
             "live_link": "Live Site Under Construction",
             "github_link": "https://github.com/NicDominguez/FSJS_Techdegree_project10",
