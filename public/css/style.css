@@ -38,6 +38,11 @@ h1,h2,h3,h4,h5,p{
   background-color: #111;
 }
 
+.button.active {
+  background-color: #999;
+  color: #111;
+}
+
 a{
   color: #333;
 }
@@ -133,6 +138,7 @@ a:hover{
 
 .portfolio-meta{
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 
   .portfolio-meta .button{

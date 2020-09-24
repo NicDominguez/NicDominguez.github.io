@@ -1,5 +1,43 @@
 $(document).foundation()
 
+
+
+/* Tech button filtering functionality */
+const btnContainer = document.querySelector(".tech-btn-wrapper")
+const btns = btnContainer.getElementsByClassName("tech-btn")
+const projectPosters = document.querySelectorAll(".poster")
+
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        //adds and removes active classes from tech buttons
+        if (this.classList.contains("active")) {
+            this.classList.remove('active');
+        } else {
+            this.classList.add('active')
+        }
+
+        //removes projects not matching selected buttons
+        for (var i = 0; i < projectPosters.length; i++) {
+            let projectTechsArray = JSON.parse(projectPosters[i].getAttribute("techs"))
+            let activeTechButtons = document.getElementsByClassName('tech-btn active')
+            let techButtonTextArray = []
+            Array.from(activeTechButtons).forEach((btn) => { techButtonTextArray.push(btn.innerText) })
+            console.log(techButtonTextArray)
+
+            //if techArray incldues technology that is also active, show poster
+            const intersection = projectTechsArray.filter(tech => techButtonTextArray.includes(tech));
+            console.log(intersection)
+            
+            if (intersection.length === 0) {
+                projectPosters[i].style.display = 'none'
+            } else { 
+                projectPosters[i].style.display = 'inline-block'
+            }
+        }
+
+    });
+} 
+
 /* SLIDESHOW SCRIPT */
 
 var slideIndex = 1;

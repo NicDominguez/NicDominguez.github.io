@@ -17,10 +17,8 @@ block content
     .grid-x.grid-margin-x.small-up-2.medium-up-3.large-up-4
           
       each project in projects
-        .cell.poster
+        - var projectTechs = [project.technologies[0], project.technologies[1], project.technologies[2]]
+        div.cell.poster(techs=projectTechs)
           a.poster-img(href=`/project/${project.id}`)
             img.thumbnail(src=project.image_urls[0])
             h5= project.project_name
-      
-
-      
