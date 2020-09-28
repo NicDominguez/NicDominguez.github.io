@@ -25,7 +25,7 @@ if (window.location.pathname === "/") {
                 //reset posters if no buttons are set to active
                 if (activeTechButtons.length === 0) {
                     for (var i = 0; i < projectPosters.length; i++) {
-                        projectPosters[i].style.display = "inline-block";
+                        projectPosters[i].classList.remove("hidden");
                     }
                 } else {
                     Array.from(activeTechButtons).forEach((btn) => { techButtonTextArray.push(btn.innerText) })
@@ -33,9 +33,9 @@ if (window.location.pathname === "/") {
                     const intersection = projectTechsArray.filter(tech => techButtonTextArray.includes(tech));
 
                     if (intersection.length === 0) {
-                        projectPosters[i].style.display = 'none'
+                        projectPosters[i].classList.add("hidden")
                     } else {
-                        projectPosters[i].style.display = 'inline-block'
+                        projectPosters[i].classList.remove("hidden")
                     }
                 }
             }
