@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Web Style Guide",
-            "description": "The Web Style Guide is a representation of what a front-end development team would use to establish the base styles of a website. It uses Sass to create a flexible code base that can change easily with any desired changes in styles. Variable, placeholders, and mixins give the multi-tiered file structure of the sass the ability to push any small changes from the variables partial up through to the final CSS stylesheet.",
+            "description": "The Web Style Guide is a representation of what a front-end development team would use to establish the base styles of a website. It uses Sass to create a flexible code base that can change easily with any desired changes in styles and layout. Variables, placeholders, and mixins give the modular file structure of the sass the ability to push any small changes from the variables partial up through to the final CSS stylesheet.",
             "technologies": [
                 "CSS",
                 "Sass",
@@ -93,7 +93,7 @@
             "description": "This project uses JQuery to create a fully interactive conference registration form. The simplified syntax uses regular expressions for validation and provides conditional behavior depending on the interactions by the user Form interactivity is a fundamental skill for front-end web development and can be implemented in a variety of online situations.",
             "technologies": [
                 "JQuery",
-                "Regular expressions",
+                "Regular Expressions",
                 "JavaScript"
             ],
             "achievements": [
@@ -123,7 +123,7 @@
             "technologies": [
                 "Object-Oriented Programming",
                 "JavaScript",
-                "Event Handlers"
+                "CSS"
             ],
             "achievements": [
                 "Customized design of UI to match desired theme",
@@ -150,7 +150,7 @@
             "project_name": "Employee Directory",
             "description": "This employee directory uses a third-party API to retrieve employee data. The JQuery requests the JSON object form the API and parses the data to list a selection of 12 random employees from the API. I also created a modal window view to see more detailed information about each employee. Additional features include the ability to cycle through the employees in the modal window and to filter the search results by employee name. This is a highly functional and easily deployable project that any small start up could benefit from.",
             "technologies": [
-                "API Consumption",
+                "REST API",
                 "JQuery",
                 "CSS"
             ],
@@ -177,10 +177,11 @@
         {
             "id": 6,
             "project_name": "React Gallery App",
-            "description": "This gallery employees the front-end library React to build a client side interface for search and previewing photos from the Flickr API.",
+            "description": "This gallery employees React to build a client side interface for search and previewing photos from the Flickr API.",
             "technologies": [
-                "API Consumption",
-                "React"
+                "REST API",
+                "React",
+                "CSS"
             ],
             "achievements": [
                 "User React Router to manage application pages",
