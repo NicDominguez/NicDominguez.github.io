@@ -23,7 +23,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "ruby": "^0.6.1"
   }
 }
